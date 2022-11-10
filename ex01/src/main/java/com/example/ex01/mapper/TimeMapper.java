@@ -10,8 +10,8 @@ import org.apache.ibatis.annotations.Select;
 
 @Mapper
 public interface TimeMapper {
-	@Select("select now() from dual")
-	public String getTime();
-	
+//	@Select("select now() from dual")
+//	public String getTime();
+//	
 	public String getTime2();
 }
